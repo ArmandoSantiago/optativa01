@@ -4,6 +4,7 @@ import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) throws MalformedURLException, XmlRpcException {
@@ -11,7 +12,12 @@ public class Client {
         config.setServerURL(new URL("http://localhost:1200"));
         XmlRpcClient client = new XmlRpcClient();
         client.setConfig(config);
-        Object[] params = {13.5, 17.5};
+        Scanner leerScanner = new Scanner(System.in);
+        System.out.println("Ingresa el primer valor");
+        double num1 = leerScanner.nextDouble();
+        System.out.println("Ingresa el segundo valor");
+        double num2 = leerScanner.nextDouble();
+        Object[] params = {num1, num2};
         double result = (Double)
                 client.execute("Metodos.suma", params);
         System.out.println("Resultado " + result);
