@@ -13,11 +13,12 @@ public class Client {
         XmlRpcClient client = new XmlRpcClient();
         client.setConfig(config);
         Scanner leerScanner = new Scanner(System.in);
-        System.out.println("Ingresa el primer valor");
+        /*System.out.println("Ingresa el primer valor");
         double num1 = leerScanner.nextDouble();
         System.out.println("Ingresa el segundo valor");
         double num2 = leerScanner.nextDouble();
-        Object[] params = {num1, num2};
+        Object[] params = {num1, num2};*/
+        Object[] params = {13.07, 18.06};
         double result = (Double)
                 client.execute("Metodos.suma", params);
         System.out.println("Resultado " + result);
