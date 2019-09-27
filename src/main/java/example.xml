@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<methodCall>
+    <methodName>Metodos.suma</methodName>
+    <params>
+        <param>
+            <value><double>4.0</double></value>
+            <value><double>4.0</double></value>
+        </param>
+    </params>
+</methodCall>
+<!--
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse>
+<params>
+    <param>
+        <value>
+            <double>8.0</double>
+        </value>
+    </param>
+</params>
+</methodResponse>
+-->
