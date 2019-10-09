@@ -19,9 +19,12 @@ public class Client {
         double num2 = leerScanner.nextDouble();
         Object[] params = {num1, num2};*/
         Object[] params = {13.07, 18.06};
-        double result = (Double)
-                client.execute("Metodos.suma", params);
+
+        double result = (Double) client.execute("Metodos.suma", params);
+        Object [] n = {5,6,8,4,1};
+        String orden = (String) client.execute("Metodos.ordenar", new Object[] {n});
         System.out.println("Resultado " + result);
+        System.out.println("Resultado de orden" + orden);
 
     }
 }
