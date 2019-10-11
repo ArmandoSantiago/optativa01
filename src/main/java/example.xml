@@ -3,41 +3,51 @@
     <methodName>Metodos.ordenar</methodName>
     <params>
         <param>
-            <array>
-                <data>
-                    <value><int>12</int></value>
-                    <value><int>8</int></value>
-                    <value><int>2</int></value>
-                    <value><int>1</int></value>
-                </data>
-            </array>
+            <value>
+                <array>
+                    <data>
+                        <value>
+                            <int>12</int>
+                        </value>
+                        <value>
+                            <int>8</int>
+                        </value>
+                        <value>
+                            <int>2</int>
+                        </value>
+                        <value>
+                            <int>1</int>
+                        </value>
+                    </data>
+                </array>
+            </value>
         </param>
     </params>
 </methodCall>
 
 
-<!--<?xml version="1.0"?>-->
-<!--<methodCall>-->
-<!--    <methodName>Metodos.suma</methodName>-->
-<!--    <params>-->
-<!--        <param>-->
-<!--            <value><double>4.0</double></value>-->
-<!--            <value><double>4.0</double></value>-->
-<!--        </param>-->
-<!--    </params>-->
-<!--</methodCall>-->
+        <!--<?xml version="1.0"?>-->
+        <!--<methodCall>-->
+        <!--    <methodName>Metodos.suma</methodName>-->
+        <!--    <params>-->
+        <!--        <param>-->
+        <!--            <value><double>4.0</double></value>-->
+        <!--            <value><double>4.0</double></value>-->
+        <!--        </param>-->
+        <!--    </params>-->
+        <!--</methodCall>-->
 
 
-<!--
+        <!--
 
-<?xml version="1.0" encoding="UTF-8"?>
-<methodResponse>
-<params>
-    <param>
-        <value>
-            <double>8.0</double>
-        </value>
-    </param>
-</params>
-</methodResponse>
--->
+        <?xml version="1.0" encoding="UTF-8"?>
+        <methodResponse>
+        <params>
+            <param>
+                <value>
+                    <double>8.0</double>
+                </value>
+            </param>
+        </params>
+        </methodResponse>
+        -->

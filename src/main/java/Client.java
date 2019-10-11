@@ -21,8 +21,9 @@ public class Client {
         Object[] params = {13.07, 18.06};
 
         double result = (Double) client.execute("Metodos.suma", params);
-        Object [] n = {5,6,8,4,1};
-        String orden = (String) client.execute("Metodos.ordenar", new Object[] {n});
+        Object[] n = {5, 6, 8, 4, 1};
+        String orden = (String) client.execute("Metodos.ordenar", new Object[]{n});
+        System.out.println(orden);
         System.out.println("Resultado " + result);
         System.out.println("Resultado de orden" + orden);
 
