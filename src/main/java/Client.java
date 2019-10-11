@@ -17,6 +17,7 @@ public class Client {
         double num1 = leerScanner.nextDouble();
         System.out.println("Ingresa el segundo valor");
         double num2 = leerScanner.nextDouble();
+
         Object[] params = {num1, num2};*/
         Object[] params = {13.07, 18.06};
 
